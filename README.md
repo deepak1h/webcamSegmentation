@@ -10,7 +10,7 @@ This repository contains code for a real-time webcam segmentation application. F
 - [Conda](https://docs.conda.io/en/latest/miniconda.html) installed
 - Jupyter Notebook
 - python  >3.8 <3.10
-- 
+- Download [pretrained_model](https://drive.google.com/file/d/1UYy3dMapbH1BnmtZU4WH1zbYgOzzHHf_/view) and put in /model directory
 
 ## Installation
 
