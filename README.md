@@ -6,6 +6,8 @@ This repository contains code for a real-time webcam segmentation application. F
 
 ## Prerequisites
 
+Before you dive into the exciting world of real-time segmentation, ensure that you have the following prerequisites in place:
+
 - NVIDIA GPU with CUDA support (for GPU acceleration)
 - [Conda](https://docs.conda.io/en/latest/miniconda.html) installed
 - Jupyter Notebook
@@ -13,6 +15,7 @@ This repository contains code for a real-time webcam segmentation application. F
 - Download [pretrained_model](https://drive.google.com/file/d/1UYy3dMapbH1BnmtZU4WH1zbYgOzzHHf_/view) and put in /model directory
 
 ## Installation
+Let's set up your environment, install necessary dependencies, and get everything ready to roll.
 
 1. Clone this repository:
    
@@ -20,55 +23,59 @@ This repository contains code for a real-time webcam segmentation application. F
    git clone https://github.com/deepak1h/webcamSegmentation.git
    cd webcamSegmentation
 ```
-Create a Conda environment (replace webcam_segmentation_env with your preferred environment name):
+2. Create a Conda environment (replace webcam_segmentation_env with your preferred environment name):
 
 ```bash
     conda create -n webcam_segmentation_env python=3.8
 ```
-Activate the Conda environment:
+3. Activate the Conda environment:
 
 ```bash
     conda activate webcam_segmentation_env
 ```
-Install the required dependencies:
+4. Install the required dependencies:
 
 ```bash
     pip install -r segmentation_requirements.txt
 ```
 
-Setting Up CUDA
+5. Setting Up CUDA
 Ensure you have CUDA installed on your system for GPU acceleration. Refer to NVIDIA's CUDA Toolkit Installation [Guide]([https://www.openai.com/](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)) for instructions.
 ```bash
     pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-Usage
-Running the Application Using Python
-Activate the Conda environment if not already activated:
+##Usage
+Now that your environment is set up, let's explore how to run the application.
+##Running the Application Using Python
+
+1. Activate the Conda environment if not already activated:
 
 ```bash
     conda activate webcam_segmentation_env
 ```
-Run the application using Python:
+2. Run the application using Python:
 
 ```bash
     python webcamSegmentation.py
 ```
-Press the 'q' key to exit the application.
+3. Press the 'q' key to exit the application.
 
-Running the Application Using Jupyter Notebook
-Activate the Conda environment if not already activated:
+##Running the Application Using Jupyter Notebook
+
+1. Activate the Conda environment if not already activated:
 
 ```bash
     conda activate webcam_segmentation_env
 ```
-Start a Jupyter Notebook server:
+2. Start a Jupyter Notebook server:
 
-bash
+```bash
 jupyter notebook
-Open the webcamSegmentation.ipynb notebook.
+```
+3. Open the webcamSegmentation.ipynb notebook.
 
-Run the notebook cells to execute the application.
+4. Run the notebook cells to execute the application.
 
-Acknowledgments
-YOLACT for the instance segmentation model.
+##Acknowledgments
+We would like to express our gratitude to the YOLACT team for providing the instance segmentation model that powers this application.
