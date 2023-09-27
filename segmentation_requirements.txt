@@ -1,0 +1,4 @@
+opencv-python==4.8.0
+pycocotools
+cython==3.0.2
+numpy==1.20.0
