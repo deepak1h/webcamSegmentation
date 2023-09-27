@@ -57,7 +57,7 @@ Now that your environment is set up, let's explore how to run the application.
 2. Run the application using Python:
 
 ```bash
-    python webcamSegmentation.py
+    python segmentation.py
 ```
 3. Press the 'q' key to exit the application.
 
