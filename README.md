@@ -4,6 +4,18 @@ This repository implements an image segmentation application using the YOLACT mo
 
 This repository contains code for a real-time webcam segmentation application. Follow the instructions below to set up the environment, install dependencies, and run the application.
 
+# Image Comparison 
+
+<div align="center">
+  <img src="out_img/img6.png" alt="After" height="200px">
+  <img src="out_img/img1.png" alt="After" height="200px">
+  <img src="out_img/img7.png" alt="After" height="200px">
+</div>
+<div align="center">
+  <img src="test_img/img8.jpg" alt="Before" width="45%">
+  <img src="out_img/img8.png" alt="After" width="45%">
+</div>
+
 ## Prerequisites
 
 Before you dive into the exciting world of real-time segmentation, ensure that you have the following prerequisites in place:
