@@ -73,7 +73,7 @@ Now that your environment is set up, let's explore how to run the application.
 ```bash
 jupyter notebook
 ```
-3. Open the webcamSegmentation.ipynb notebook.
+3. Open the webcam_segmentation.ipynb notebook.
 
 4. Run the notebook cells to execute the application.
 
