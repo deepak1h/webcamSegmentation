@@ -60,9 +60,9 @@ Ensure you have CUDA installed on your system for GPU acceleration. Refer to NVI
     pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-##Usage
+## Usage
 Now that your environment is set up, let's explore how to run the application.
-##Running the Application Using Python
+## Running the Application Using Python
 
 1. Activate the Conda environment if not already activated:
 
@@ -76,7 +76,7 @@ Now that your environment is set up, let's explore how to run the application.
 ```
 3. Press the 'q' key to exit the application.
 
-##Running the Application Using Jupyter Notebook
+## Running the Application Using Jupyter Notebook
 
 1. Activate the Conda environment if not already activated:
 
@@ -92,5 +92,57 @@ jupyter notebook
 
 4. Run the notebook cells to execute the application.
 
-##Acknowledgments
+## User Interface
+
+![Uitest](UI.jpeg)
+
+## Controls
+
+1. CUDA enabled: Enable/Disable to use GPU processing power for faster computations.
+   
+2. Display Masks: Enable/Disable to use the overlay of masks on classified images, enhancing visual understanding.
+
+3. Dosplay B Box: Enable/Disable to display Bounding Boxes on classified images, improving clarity.
+
+4. Label Visualization: Enable/Disable to display labels directly on segmented images, improving clarity.
+
+5. Thresholding: Utilize a threshold to qualify results based on a specified percentage threshold.
+
+6. Dynamic Window Sizing: Adjust the size and position of the analysis window on the fly for precise inspection.
+
+7. Top K-Class Results: Easily access the top K ranked accurate object classifications for quick insights.
+
+All these parameter you can change to play
+
+## Running the Application UI
+
+1. Activate the Conda environment if not already activated:
+
+```bash
+    conda activate webcam_segmentation_env
+```
+2. Run the application using Python:
+
+```bash
+    python app.py
+```
+
+## Running the Application Using Jupyter Notebook
+
+1. Activate the Conda environment if not already activated:
+
+```bash
+    conda activate webcam_segmentation_env
+```
+2. Start a Jupyter Notebook server:
+
+```bash
+jupyter notebook
+```
+3. Open the App_withUI.ipynb notebook.
+
+4. Run the notebook cells to execute the application.
+
+
+## Acknowledgments
 We would like to express our gratitude to the YOLACT team for providing the instance segmentation model that powers this application.
